@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Century Gothic, sans-serif;
+  }
+  /* general  */
+  body{
+    
+    /*background-color: #F2EEE2;*/
+    
+  }
+  .container{
+    margin:20px 10%;
+  }
+  h1{
+      font-size: 35px;
+      line-height:54px;
+      margin-top:10px;
+      padding-bottom:20px;
+      font-weight: 800;
+  }
+  h2{
+      font-size: 30px;
+      line-height:38px;
+      margin-top: 10px;
+      margin-bottom:10px;
+      font-weight: 600;
+  }
+  h3{
+    font-size: 25px;
+    line-height:45px;
+    margin-top: 10px;
+    margin-bottom:15px;
+    font-weight: 700;
+  }
+  p{
+      font-size: 14px;
+      line-height: 21px;
+  }
+  .boundary{
+
+  }
+
+  /* header section */
+  header h1{
+    font-size: 2em;
+    font-family: Impact;
+    color: yellow;
+    background-color: gray;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top:30px;
+    letter-spacing: 3px;
+  }
+  header nav {
+    background-color:#1180C5;  
+  }
+  header nav ul {
+    
+  }
+  header nav ul li{
+    list-style:none;
+    display:inline-flex;
+    
+  }
+  header ul li a {
+    text-decoration:none;
+    padding:10px;
+    color:white;
+    
+  }
+  .about-me {
+      padding-left:10px;
+  }
+  /* about me  */
+  .about-me .motion{
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 27px;
+      margin-bottom: 15px;;
+
+  }
+  /*============ Education ============*/
+.boundry{
+    border:4px solid #F5CE28;
+    padding:10px;
+    margin:20px 10px;
+}
+.section-title h3{
+    font-size: 24px;
+    color:#F81B84;
+}
+.section-title blockquote{
+    font-size: 15px;
+    line-height:23px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    
+}
+.section-item{
+    border:1px solid blue;
+    margin:10px 5px;
+    padding:30px 10px 10px;
+}
+.section-item h4{
+    border-bottom: 2px solid blue;
+    margin-bottom: 10px;
+}
+
+.section-item ul ,.section-item ol {
+    list-style-position: inside;
+}
+
+/* ========== footer section =================*/
+footer div {
+    height: 450px;
+  }
+  
+  footer form {
+    padding: 30px;
+    width: 500px;
+    margin:auto;
+  }
+  
+  /* DESIGN 2 */
+  footer #form2 {
+    background-color: #808080;
+    font-family: Tahoma;
+    font-variant: small-caps;
+  }
+  
+  footer #form2 h1 {
+    color: white;
+  }
+  footer #form2 textarea{
+    background-color: white;
+    border: 1px #1180C5 solid;
+    padding: 10px;
+    color: #828081;
+    font-variant: small-caps;
+    width:425px;
+    height:150px;
+  }
+  
+  footer #form2 input{
+    background-color: ;
+    border: 1px #828081 solid;
+    padding: 10px;
+    color: #828081;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+  
+  footer #form2 input:hover, #form1 input:focus {
+    border: 1px #94618E solid;
+    color: #94618E;
+  }
+  
+  footer #form2 button {
+    background-color: #94618E;
+    border: 0px;
+    color: white;
+    font-size: 0.9em;
+    padding: 10px 20px;
+    font-variant: small-caps;
+    width: 225px;
+  }
+  footer #form2 button:hover{
+    background-color:white ;
+    border: 0px;
+    color: #94618E;
+    transition:all 1s;
+    border-radius:5px;
+  }
+  
+  
